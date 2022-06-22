@@ -15,7 +15,7 @@ for(let i = 0; i < rateNumber.length; i++)
          
         document.querySelector(".submit-button").addEventListener("click", () => {
             if (document.querySelector(".selected-rate").value == 'false'){
-                alert(`Please select a score before clicking the Submit button.`);
+                alert("Please select a score before clicking the Submit button!.");
             }
             else {
                     document.querySelector(".rating-state").style.visibility = "hidden";
