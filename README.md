@@ -1,2 +1,2 @@
-# interactive_rating_component
+# lucianbeck
 This is Interactive rating component I made, based on a Frontend Mentor challenge
