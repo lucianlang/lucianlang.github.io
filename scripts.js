@@ -10,7 +10,12 @@ for(let i = 0; i < rateNumber.length; i++)
          })
 }
 document.querySelector(".submit-button").addEventListener("click", () => {
-document.querySelector(".rating-state").style.visibility = "hidden";
-document.querySelector(".thank-you-start").style.visibility = "visible";
+            if (document.querySelector(".selected-rate").value == 'false'){
+                alert("yupi");
+            }
+            else {
+                    document.querySelector(".rating-state").style.visibility = "hidden";
+                    document.querySelector(".thank-you-start").style.visibility = "visible";
+            }
 })
 })
